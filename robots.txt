@@ -1,0 +1,7 @@
+#
+# robots.txt
+#
+User-Agent: *
+Allow: /
+Sitemap:http://www.zhangenrui.com/sitemap.html
+Sitemap:http://www.zhangenrui.com/sitemap.xml

@@ -1,0 +1,52 @@
+
+# 联系信息
+author: Ryan
+email: zer0131@vip.qq.com
+github_username: zer0131
+twitter_username:
+facebook_username:
+weibo_username:
+zhihu_username:
+linkedIn_username:
+dribbble_username:
+
+# 站点信息
+title: 五环小胖子的博客
+brief-intro: ''
+baseurl: ''
+description: Hi, i am ryan, i like coding on night. 
+keywords: 'php,python,linux,ios,geeker,移动互联网,golang'
+url: http://www.zhangenrui.com
+rss_url: /sitemap.xml
+site_url: /sitemap.html
+description_footer: 记录工作和生活的点点滴滴
+
+# avatar头像及Favicon
+avatar: /avatar.png
+favicon: /favicon.ico
+
+# 多说设置
+up_shortname: 2130433
+
+# 百度统计
+baidu_tongji_id: 1995b63e79a06105c676e43fa9b7ea2e
+
+# Building
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt摘要
+excerpt_separator: "<!--more-->"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
