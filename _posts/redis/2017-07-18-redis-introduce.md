@@ -71,3 +71,10 @@ cd /your/path/redis-4.0.0/bin
 ```
 ./redis-cli
 ```
+
+## 语言调用
+
+* PHP：<a href="https://github.com/phpredis/phpredis" target="_blank">https://github.com/phpredis/phpredis</a>
+* Python：<a href="https://github.com/andymccurdy/redis-py" target="_blank">https://github.com/andymccurdy/redis-py</a>
+* Go：<a href="https://github.com/garyburd/redigo" target="_blank">https://github.com/garyburd/redigo</a>
+* Java：<a href="https://github.com/xetorthio/jedis" target="_blank">https://github.com/xetorthio/jedis</a>
