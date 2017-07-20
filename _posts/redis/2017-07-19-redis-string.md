@@ -226,3 +226,56 @@ static inline char sdsReqType(size_t string_size) {
     return SDS_TYPE_64;//使用sdshdr64
 }
 {% endhighlight %}
+
+<a href="https://github.com/zer0131/zer0131.github.io/blob/master/code/redis/t_string.c" target="_blank">t_string.c</a>封装了关于字符串的上层操作，如set操作会调用**setCommand**方法
+
+{% highlight c %}
+void setCommand(client *c) {
+    int j;
+    robj *expire = NULL;
+    int unit = UNIT_SECONDS;
+    int flags = OBJ_SET_NO_FLAGS;
+
+    //解析命令参数
+    for (j = 3; j < c->argc; j++) {
+        char *a = c->argv[j]->ptr;
+        robj *next = (j == c->argc-1) ? NULL : c->argv[j+1];
+
+        if ((a[0] == 'n' || a[0] == 'N') &&
+            (a[1] == 'x' || a[1] == 'X') && a[2] == '\0' &&
+            !(flags & OBJ_SET_XX))
+        {
+            flags |= OBJ_SET_NX;
+        } else if ((a[0] == 'x' || a[0] == 'X') &&
+                   (a[1] == 'x' || a[1] == 'X') && a[2] == '\0' &&
+                   !(flags & OBJ_SET_NX))
+        {
+            flags |= OBJ_SET_XX;
+        } else if ((a[0] == 'e' || a[0] == 'E') &&
+                   (a[1] == 'x' || a[1] == 'X') && a[2] == '\0' &&
+                   !(flags & OBJ_SET_PX) && next)
+        {
+            flags |= OBJ_SET_EX;
+            unit = UNIT_SECONDS;
+            expire = next;
+            j++;
+        } else if ((a[0] == 'p' || a[0] == 'P') &&
+                   (a[1] == 'x' || a[1] == 'X') && a[2] == '\0' &&
+                   !(flags & OBJ_SET_EX) && next)
+        {
+            flags |= OBJ_SET_PX;
+            unit = UNIT_MILLISECONDS;
+            expire = next;
+            j++;
+        } else {
+            addReply(c,shared.syntaxerr);
+            return;
+        }
+    }
+
+    c->argv[2] = tryObjectEncoding(c->argv[2]);//对设置值得转换
+
+    //调用公用创建方法
+    setGenericCommand(c,flags,c->argv[1],c->argv[2],expire,unit,NULL,NULL);
+}
+{% endhighlight %}
