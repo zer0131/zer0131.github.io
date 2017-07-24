@@ -170,7 +170,7 @@ if ($lock) {
 
 ## 基本数据结构
 
-### sds
+### sds结构
 
 sds是redis底层的数据结构，也是redis最核心、最基本的数据结构；redis存储字符串类型的数据都会使用该数据结构。
 
@@ -227,6 +227,8 @@ static inline char sdsReqType(size_t string_size) {
 }
 {% endhighlight %}
 
+### t_string文件
+
 <a href="https://github.com/zer0131/zer0131.github.io/blob/master/code/redis/t_string.c" target="_blank">t_string.c</a>封装了关于字符串的上层操作，如set操作会调用**setCommand**方法
 
 {% highlight c %}
@@ -279,3 +281,11 @@ void setCommand(client *c) {
     setGenericCommand(c,flags,c->argv[1],c->argv[2],expire,unit,NULL,NULL);
 }
 {% endhighlight %}
+
+### 编码方式
+
+* OBJ_ENCODING_RAW
+* OBJ_ENCODING_INT
+* OBJ_ENCODING_EMBSTR
+
+三种编码方式，根据存入的数据是否是整数、大小来决定使用哪种
