@@ -135,7 +135,7 @@ class Lock {
     public function acquire($lockName, $acquireTime = 10, $lockTimeout = 10) {
         $value = uniqid();
         $key = 'lock:'.$lockName;
-        $locakTimeout = intval($lockTimeout);
+        $lockTimeout = intval($lockTimeout);
         $end = time() + $acquireTime;
         while (time() < $end) {
             if ($this->_redis->setnx($key, $value)) {
@@ -144,7 +144,7 @@ class Lock {
             } elseif (!$this->_redis->ttl($key)) {
                 $this->_redis->expire($key, $lockTimeout);
             }
-            uspleep(1000);
+            usleep(1000);
         }
         return false;
     }
