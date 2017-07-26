@@ -132,9 +132,9 @@ class Lock {
         $this->redis->connect('127.0.0.1', 6379);
     }
 
-    public function acquire($locakName, $acquireTime = 10, $lockTimeout = 10) {
+    public function acquire($lockName, $acquireTime = 10, $lockTimeout = 10) {
         $value = uniqid();
-        $key = 'lock:'.$locakName;
+        $key = 'lock:'.$lockName;
         $locakTimeout = intval($lockTimeout);
         $end = time() + $acquireTime;
         while (time() < $end) {
@@ -149,7 +149,7 @@ class Lock {
         return false;
     }
 
-    public function release($locakName, $value) {
+    public function release($lockName, $value) {
         $key = 'lock:'.$lockName;
         if ($this->_redis->get($key) == $value) {
             $this->_redis->del($key);
