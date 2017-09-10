@@ -45,6 +45,7 @@ type: page
 * <a href="http://maven.aliyun.com/nexus/#welcome" target="_blank">maven阿里镜像</a>
 * <a href="https://start.spring.io/" target="_blank">SPRING INITIALIZR</a>
 * <a href="http://www.golangtc.com/download" target="_blank">Go国内镜像下载</a>
+* <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
 
 ## Shop
 
