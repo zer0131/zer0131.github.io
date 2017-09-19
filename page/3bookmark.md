@@ -21,6 +21,7 @@ type: page
 * <a href="https://mail.aliyun.com/alimail/auth/login" target="_blank" title="ali">阿里个人邮箱</a>
 * <a href="https://mail.mxhichina.com/?lang=zh_CN" target="_blank" title="ali-qiye">阿里企业邮箱</a>
 * <a href="http://mail.163.com/" target="_blank" title="163">网易邮箱</a>
+* <a href="https://outlook.live.com/owa/" target="_blank" title="hotmail">Hotmail</a>
 
 ## Tech
 
