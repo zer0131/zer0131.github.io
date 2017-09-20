@@ -25,19 +25,19 @@ String是redis最基本也是最简单的数据类型，典型的key-value结构
 
 设置一个key的value
 
-{% highlight sh %}
+```sh
 redis> set name "ryan"
 OK
-{% endhighlight %}
+```
 
 ### get
 
 获取一个key的value
 
-{% highlight sh %}
+```sh
 redis> get name
 "ryan"
-{% endhighlight %}
+```
 
 ### setex
 
@@ -52,43 +52,43 @@ OK
 
 将key设置值为value，如果key不存在
 
-{% highlight sh %}
+```sh
 redis> setnx name "ryan"
 (integer) 1
 redis> setnx name "ryan"
 (integer) 0
-{% endhighlight %}
+```
 
 ### append
 
 如果key已经存在，并且值为字符串，那么这个命令会把value追加到原来值（value）的结尾。 如果key不存在，那么它将首先创建一个空字符串的key，再执行追加操作
 
-{% highlight sh %}
+```sh
 redis> append name "ryan"
 (integer) 4
 redis> append name "zhang"
 (integer) 9
-{% endhighlight %}
+```
 
 ### incr
 
 对存储在指定key的数值执行原子的加1操作，如果指定的key不存在，那么在执行incr操作之前，会先将它的值设定为0
 
-{% highlight sh %}
+```sh
 redis> incr age
 (integer) 1
-{% endhighlight %}
+```
 
 ### decr
 
 对key对应的数字做减1操作。如果key不存在，那么在操作之前，这个key对应的值会被置为0
 
-{% highlight sh %}
+```sh
 redis> set age 25
 OK
 redis> decr age
 (integer) 24
-{% endhighlight %}
+```
 
 <a href="https://redis.io/commands#string" target="_blank">更多命令</a>
 
@@ -98,7 +98,7 @@ redis> decr age
 
 将从db中取出的数据缓存，以php为例，将从db中取出的关联数组转化为json串存入redis(php扩展基于phpredis)
 
-{% highlight php %}
+```php
 <?php
 
 /**
@@ -114,13 +114,13 @@ function cacheData($data) {
     return $redis->set($key, $value);
 }
 
-{% endhighlight %}
+```
 
 ### 锁
 
 在多任务环境下，多个任务对同一个资源进行操作时会有操作错乱的问题，因此当某一个任务拿到资源的操作权，我们对其进行加锁，对资源操作完后再释放锁，这样在加锁期间其他的任务等待锁释放后再操作资源。
 
-{% highlight php %}
+```php
 <?php
 
 class Lock {
@@ -166,7 +166,7 @@ if ($lock) {
     $lockObj->release('test', $lock);
 }
 
-{% endhighlight %}
+```
 
 ## 基本数据结构
 
@@ -178,7 +178,7 @@ sds是redis底层的数据结构，也是redis最核心、最基本的数据结�
 
 redis4.0中的sds结构会根据存入数据的大小选择，所以定义了存储不同长度的结构体
 
-{% highlight c %}
+```c
 struct __attribute__ ((__packed__)) sdshdr5 {
     unsigned char flags; /* 3 lsb of type, and 5 msb of string length */
     char buf[];
@@ -207,11 +207,11 @@ struct __attribute__ ((__packed__)) sdshdr64 {
     unsigned char flags; /* 3 lsb of type, 5 unused bits */
     char buf[];
 };
-{% endhighlight %}
+```
 
 根据传入数据的大小确定选用的结构体类型
 
-{% highlight c %}
+```c
 static inline char sdsReqType(size_t string_size) {
     if (string_size < 1<<5)
         return SDS_TYPE_5;//使用sdshdr5
@@ -225,13 +225,13 @@ static inline char sdsReqType(size_t string_size) {
 #endif
     return SDS_TYPE_64;//使用sdshdr64
 }
-{% endhighlight %}
+```
 
 ### t_string文件
 
 <a href="https://github.com/zer0131/zer0131.github.io/blob/master/code/redis/t_string.c" target="_blank">t_string.c</a>封装了关于字符串的上层操作，如set操作会调用**setCommand**方法
 
-{% highlight c %}
+```c
 void setCommand(client *c) {
     int j;
     robj *expire = NULL;
@@ -280,7 +280,7 @@ void setCommand(client *c) {
     //调用公用创建方法
     setGenericCommand(c,flags,c->argv[1],c->argv[2],expire,unit,NULL,NULL);
 }
-{% endhighlight %}
+```
 
 ### 编码方式
 
