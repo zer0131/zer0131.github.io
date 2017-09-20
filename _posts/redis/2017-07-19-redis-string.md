@@ -43,10 +43,10 @@ redis> get name
 
 设置key对应字符串value，并且设置key在给定的seconds时间之后超时过期
 
-{% highlight sh %}
+```sh
 redis> setex name 10 "ryan"
 OK
-{% endhighlight %}
+```
 
 ### setnx
 
