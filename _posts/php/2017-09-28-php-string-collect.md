@@ -9,7 +9,9 @@ tags: PHP string 字符串处理 脑图
 * content
 {:toc}
 
-## PHP String处理函数脑图汇总
+![php-logo](http://7xj4mc.com1.z0.glb.clouddn.com/php-logo.jpg)
+
+## 脑图
 
 具体查看下面的图片，欢迎大家下载图片慢慢查看 ~_~
 

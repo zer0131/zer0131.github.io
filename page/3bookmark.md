@@ -47,6 +47,7 @@ type: page
 * <a href="https://start.spring.io/" target="_blank">SPRING INITIALIZR</a>
 * <a href="http://www.golangtc.com/download" target="_blank">Go国内镜像下载</a>
 * <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
+ <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
 
 ## Shop
 
