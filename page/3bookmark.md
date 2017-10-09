@@ -48,6 +48,7 @@ type: page
 * <a href="http://www.golangtc.com/download" target="_blank">Go国内镜像下载</a>
 * <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
 * <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
+* <a href="https://note.youdao.com/group" target="_blank">有道云协作</a>
 
 ## Shop
 
