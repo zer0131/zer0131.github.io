@@ -32,6 +32,7 @@ type: page
 * <a href="http://blog.csdn.net/column/details/mobilebackend.html" target="_blank">App后端技术架构</a>
 * <a href="https://openresty.org/cn/" target="_blank">OpenResty</a>
 * <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
+* <a href="https://golang.google.cn/" target="_blank">Go中国</a>
 
 ## DevTool
 
