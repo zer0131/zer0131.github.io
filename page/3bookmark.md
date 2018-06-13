@@ -26,6 +26,7 @@ type: page
 ## Tech
 
 * <a href="http://php.net/manual/zh/" target="_blank" title="PHP文档">PHP文档</a>
+* <a href="http://godoc.ml/" target="_blank">Go标准库中文文档</a>
 * <a href="http://www.thinkphp.cn/" target="_blank" title="thinkphp">ThinkPHP</a>
 * <a href="http://codeigniter.org.cn/" target="_blank" title="CI">CI</a>
 * <a href="http://www.hprose.com/" target="_blank">Hprose</a>
