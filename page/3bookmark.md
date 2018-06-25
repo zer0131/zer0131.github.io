@@ -51,6 +51,7 @@ type: page
 * <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
 * <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
 * <a href="https://note.youdao.com/web" target="_blank">有道云笔记</a>
+* <a href="https://packagist.org" target="_blank">Packagist</a>
 
 ## Shop
 
