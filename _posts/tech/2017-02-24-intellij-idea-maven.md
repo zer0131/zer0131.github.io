@@ -35,7 +35,7 @@ mv ~/Download/artheType-category.xml ~/.m2/
 
 设置Maven Runner中的VM Options为**-DarchetypeCatalog=local**，如下图
 
-![maven-00](http://7xj4mc.com1.z0.glb.clouddn.com/maven-00.jpg)
+![maven-00](http://blog.zhangenrui.cn/maven-00.jpg)
 
 ## 第二步
 

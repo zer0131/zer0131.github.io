@@ -9,7 +9,7 @@ tags: redis 简介 入门
 * content
 {:toc}
 
-![redis-logo](http://7xj4mc.com1.z0.glb.clouddn.com/redis-logo.png)
+![redis-logo](http://blog.zhangenrui.cn/redis-logo.png)
 
 ## 简介
 
@@ -50,7 +50,7 @@ redis的官网地址，非常好记，是<a href="https://redis.io/" target="_bl
 以安装4.0为例
 
 ```
-wget http://7xkyq4.com1.z0.glb.clouddn.com/redis/redis-4.0.0.tar.gz
+wget resource.zhangenrui.cn/redis/redis-4.0.0.tar.gz
 tar -xf redis-4.0.0.tar.gz
 cd redis-4.0.0
 make && make test

@@ -9,7 +9,7 @@ tags: redis list 队列 链表
 * content
 {:toc}
 
-![redis-logo](http://7xj4mc.com1.z0.glb.clouddn.com/redis-logo.png)
+![redis-logo](http://blog.zhangenrui.cn/redis-logo.png)
 
 ## 类型介绍
 

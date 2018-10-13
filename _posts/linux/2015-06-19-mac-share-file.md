@@ -10,7 +10,7 @@ tags: MacOSX VirtualBox
 * content
 {:toc}
 
-![VirtualBox](http://7xj4mc.com1.z0.glb.clouddn.com/vbox_logo.jpg)
+![VirtualBox](http://blog.zhangenrui.cn/vbox_logo.jpg)
 
 ## Mac安装VirtualBox
 
@@ -27,10 +27,10 @@ tags: MacOSX VirtualBox
 __1、配置虚拟机__
 
 点击设置，如下图：
-![vbox_1](http://7xj4mc.com1.z0.glb.clouddn.com/vbox_1.png)
+![vbox_1](http://blog.zhangenrui.cn/vbox_1.png)
 
 建立共享文件夹，选择固定分配和自动挂在两个选项
-![vbox_2](http://7xj4mc.com1.z0.glb.clouddn.com/vbox_2.png)
+![vbox_2](http://blog.zhangenrui.cn/vbox_2.png)
 
 __2、进入虚拟操作系统设置挂载__
 

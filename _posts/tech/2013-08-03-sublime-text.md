@@ -10,7 +10,7 @@ tags: Sublime 破解 汉化
 * content
 {:toc}
 
-![sublime_text](http://7xj4mc.com1.z0.glb.clouddn.com/sublime_text.png)
+![sublime_text](http://blog.zhangenrui.cn/sublime_text.png)
 
 ## 前面的废话
 
@@ -32,15 +32,15 @@ tags: Sublime 破解 汉化
 
 ### 3、按下图步骤完成：
 
-![sublime_text_1](http://7xj4mc.com1.z0.glb.clouddn.com/sublime_text_1.jpg)
+![sublime_text_1](http://blog.zhangenrui.cn/sublime_text_1.jpg)
 
-![sublime_text_2](http://7xj4mc.com1.z0.glb.clouddn.com/sublime_text_2.jpg)
+![sublime_text_2](http://blog.zhangenrui.cn/sublime_text_2.jpg)
 
 第一步找到“Generate”后，把License全选并且复制，然后点击第二步“Patch Key”，找到安装目录，选择主程序。提示成功后打开Sublime Text 2，在菜单里找到“help”，“enter license”，把刚才复制的粘贴进去就ok了！
 
 ### 4、完成上述，就应该破解成功了
 
-![sublime_text_3](http://7xj4mc.com1.z0.glb.clouddn.com/sublime_text_3.jpg)
+![sublime_text_3](http://blog.zhangenrui.cn/sublime_text_3.jpg)
 
 啊哈，现在就已经是注册过的了，你可以随心所欲的写代码了！！！
 

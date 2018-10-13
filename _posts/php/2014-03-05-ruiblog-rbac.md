@@ -81,22 +81,22 @@ iqishe_role_user：角色用户关系表
 
 ### 1、新增角色
 
-![ruiblog_rbac_1](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_1.jpg)
+![ruiblog_rbac_1](http://blog.zhangenrui.cn/ruiblog_rbac_1.jpg)
 
-![ruiblog_rbac_2](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_2.jpg)
+![ruiblog_rbac_2](http://blog.zhangenrui.cn/ruiblog_rbac_2.jpg)
 
 ### 2、角色授权
 
-![ruiblog_rbac_3](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_3.jpg)
+![ruiblog_rbac_3](http://blog.zhangenrui.cn/ruiblog_rbac_3.jpg)
 
-![ruiblog_rbac_4](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_4.jpg)
+![ruiblog_rbac_4](http://blog.zhangenrui.cn/ruiblog_rbac_4.jpg)
 
-![ruiblog_rbac_5](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_5.jpg)
+![ruiblog_rbac_5](http://blog.zhangenrui.cn/ruiblog_rbac_5.jpg)
 
-![ruiblog_rbac_6](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_6.jpg)
+![ruiblog_rbac_6](http://blog.zhangenrui.cn/ruiblog_rbac_6.jpg)
 
 ### 3、新增用户
 
-![ruiblog_rbac_7](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_rbac_7.jpg)
+![ruiblog_rbac_7](http://blog.zhangenrui.cn/ruiblog_rbac_7.jpg)
 
 这就是我在开发RUIBlog时使用RBAC的一些见解和操作方法，THinkPHP官方网站有很多关于RBAC的视频教程，大家可以将RUIBlog作为一个案例结合教程来看，我想更能提高自己吧！！！

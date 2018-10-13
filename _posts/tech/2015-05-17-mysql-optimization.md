@@ -11,7 +11,7 @@ tags: 优化 MySQL
 * content
 {:toc}
 
-![mysql logo](http://7xj4mc.com1.z0.glb.clouddn.com/mysql_logo.png)
+![mysql logo](http://blog.zhangenrui.cn/mysql_logo.png)
 
 ## 1.为查询缓存优化你的查询
 
@@ -41,11 +41,11 @@ EXPLAIN 的查询结果还会告诉你你的索引主键被如何利用的，你
 
 挑一个你的SELECT语句（推荐挑选那个最复杂的，有多表联接的），把关键字EXPLAIN加到前面。你可以使用phpmyadmin来做这个事。然后，你会看到一张表格。下面的这个示例中，我们忘记加上了group_id索引，并且有表联接：
 
-![mysql 1](http://7xj4mc.com1.z0.glb.clouddn.com/mysql_youhua_1.jpg)
+![mysql 1](http://blog.zhangenrui.cn/mysql_youhua_1.jpg)
 
 当我们为 group_id 字段加上索引后：
 
-![mysql 2](http://7xj4mc.com1.z0.glb.clouddn.com/mysql_youhua_2.jpg)
+![mysql 2](http://blog.zhangenrui.cn/mysql_youhua_2.jpg)
 
 ## 3.当只要一行数据时使用 LIMIT 1
 
@@ -74,7 +74,7 @@ if (mysql_num_rows($r) > 0) {
 
 索引并不一定就是给主键或是唯一的字段。如果在你的表中，有某个字段你总要会经常用来做搜索，那么，请为其建立索引吧。
 
-![mysql 3](http://7xj4mc.com1.z0.glb.clouddn.com/mysql_youhua_3.jpg)
+![mysql 3](http://blog.zhangenrui.cn/mysql_youhua_3.jpg)
 
 从上图你可以看到那个搜索字串 “last_name LIKE ‘a%’”，一个是建了索引，一个是没有索引，性能差了4倍左右。
 
@@ -161,7 +161,7 @@ PROCEDURE ANALYSE() 会让 MySQL 帮你去分析你的字段和其实际的数�
 
 在phpmyadmin里，你可以在查看表时，点击 “Propose table structure” 来查看这些建议
 
-![mysql 4](http://7xj4mc.com1.z0.glb.clouddn.com/mysql_youhua_4.jpg)
+![mysql 4](http://blog.zhangenrui.cn/mysql_youhua_4.jpg)
 
 一定要注意，这些只是建议，只有当你的表里的数据越来越多时，这些建议才会变得准确。一定要记住，你才是最终做决定的人。
 

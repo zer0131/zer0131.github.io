@@ -11,7 +11,7 @@ tags: OneFox PHP 入门 框架
 
 ## 简介
 
-![logo](http://7xj4mc.com1.z0.glb.clouddn.com/fox_logo.png)
+![logo](http://blog.zhangenrui.cn/fox_logo.png)
 
 OneFox是一个快速、简单的基于MVC和面向对象的轻量级PHP开发框架，遵循Apache2开源协议发布，简单阅读使用手册即可快速开发自己的Web应用。OneFox主要有以下优点：
 
@@ -128,7 +128,7 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 ```
 或
 ```
-wget http://7xkyq4.com1.z0.glb.clouddn.com/php/composer.phar
+wget resource.zhangenrui.cn/php/composer.phar
 ```
 
 <a href="http://docs.phpcomposer.com/" target="_blank">我想进一步学习composer</a>

@@ -121,4 +121,4 @@ RUIBlog的分类使用的就是递归的思想来实现的。这个分类实际�
 
 码字不多，还望大家谅解，有不明白的地方大家可以留言，我们可以互相学习一下！最后附上一张分类管理的图片。
 
-![ruiblog_category_1](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_category_1.png)
+![ruiblog_category_1](http://blog.zhangenrui.cn/ruiblog_category_1.png)

@@ -9,7 +9,7 @@ tags: OneFox PHP 案例 开发 框架
 * content
 {:toc}
 
-![logo](http://7xj4mc.com1.z0.glb.clouddn.com/fox_logo.png)
+![logo](http://blog.zhangenrui.cn/fox_logo.png)
 
 ## 控制器
 

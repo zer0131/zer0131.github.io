@@ -10,7 +10,7 @@ tags: Python linux 进程 监控
 * content
 {:toc}
 
-![python logo](http://7xj4mc.com1.z0.glb.clouddn.com/python_logo.png)
+![python logo](http://blog.zhangenrui.cn/python_logo.png)
 
 ## 概述
 很多时候我们都需要监测linux服务器中的一个或多个进程是否正常运行，并能通过邮件的方式通知系统管理员。使用python编写一个监测进程是否运行正常的脚本是很方面和高效的，那么我们就使用python中的subprocess模块并结合linux命令来简单实现一个监测脚本。
@@ -85,7 +85,7 @@ crontab -e
 
 至此，linux会呈现一个vim编辑界面，ps：vim相关知识请 [百度](http://www.baidu.com) ，这里我为大家提供一些简单的入门命令 [猛戳一下](http://appryan.com/2015/05/16/vim-basic-cmd/)。关于crontab的配置格式请参考下图：
 
-![crontab](http://7xj4mc.com1.z0.glb.clouddn.com/crontab.png)
+![crontab](http://blog.zhangenrui.cn/crontab.png)
 
 {% highlight vim %}
 0 8 * * * /usr/local/python /path/to/check.py

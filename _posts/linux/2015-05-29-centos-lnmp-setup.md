@@ -9,7 +9,7 @@ tags: linux centos lnmp环境
 * content
 {:toc}
 
-![centos](http://7xj4mc.com1.z0.glb.clouddn.com/centos_logo.png)
+![centos](http://blog.zhangenrui.cn/centos_logo.png)
 
 ## 描述
 

@@ -10,16 +10,16 @@ tags: linux centos ip
 * content
 {:toc}
 
-![centos logo](http://7xj4mc.com1.z0.glb.clouddn.com/centos_logo.png)
+![centos logo](http://blog.zhangenrui.cn/centos_logo.png)
 
 ## 网卡配置
 
 **ifconfig**查看网络设置
 <!--more-->
-![centos_ip_1](http://7xj4mc.com1.z0.glb.clouddn.com/centos_ip_1.png)
+![centos_ip_1](http://blog.zhangenrui.cn/centos_ip_1.png)
 
 vim打开**/etc/sysconfig/network-scripts/ifcfg-eth0**
-![centos_ip_2](http://7xj4mc.com1.z0.glb.clouddn.com/centos_ip_2.png)
+![centos_ip_2](http://blog.zhangenrui.cn/centos_ip_2.png)
 
 **DEVICE=eth0**描述网卡对应的设备别名，例如ifcfg-eth0的文件中它为eth0
 
@@ -37,7 +37,7 @@ vim打开**/etc/sysconfig/network-scripts/ifcfg-eth0**
 
 ## 网关配置
 vim打开**/etc/sysconfig/network**
-![centos_ip_3](http://7xj4mc.com1.z0.glb.clouddn.com/centos_ip_3.png)
+![centos_ip_3](http://blog.zhangenrui.cn/centos_ip_3.png)
 
 **NETWORKING=yes**表示系统是否使用网络，一般设置为yes。如果设为no，则不能使用网络，而且很多系统服务程序将无法启动
 
@@ -47,7 +47,7 @@ vim打开**/etc/sysconfig/network**
 
 ## DNS配置
 vim打开**/etc/resolv.conf**
-![centos_ip_4](http://7xj4mc.com1.z0.glb.clouddn.com/centos_ip_4.png)
+![centos_ip_4](http://blog.zhangenrui.cn/centos_ip_4.png)
 
 **nameserver**即是DNS服务器IP地址
 

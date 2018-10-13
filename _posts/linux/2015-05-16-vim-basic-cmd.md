@@ -19,12 +19,12 @@ tags: linux vim 命令
 
 ## 命令图片
 
-![vim cmd 1](http://7xj4mc.com1.z0.glb.clouddn.com/vim_1.png)
+![vim cmd 1](http://blog.zhangenrui.cn/vim_1.png)
 
-![vim cmd 2](http://7xj4mc.com1.z0.glb.clouddn.com/vim_2.png)
+![vim cmd 2](http://blog.zhangenrui.cn/vim_2.png)
 
-![vim cmd 3](http://7xj4mc.com1.z0.glb.clouddn.com/vim_3.png)
+![vim cmd 3](http://blog.zhangenrui.cn/vim_3.png)
 
-![vim cmd 4](http://7xj4mc.com1.z0.glb.clouddn.com/vim_4.png)
+![vim cmd 4](http://blog.zhangenrui.cn/vim_4.png)
 
-![vim cmd 5](http://7xj4mc.com1.z0.glb.clouddn.com/vim_4.png)
+![vim cmd 5](http://blog.zhangenrui.cn/vim_4.png)

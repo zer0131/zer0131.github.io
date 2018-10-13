@@ -109,4 +109,4 @@ install---安装文件夹，安装后可删除
 
 ThinkPHP---ThinkPHP核心文件夹
 
-![ruiblog_xuqiu_1](http://7xj4mc.com1.z0.glb.clouddn.com/ruiblog_xuqiu_1.jpg)
+![ruiblog_xuqiu_1](http://blog.zhangenrui.cn/ruiblog_xuqiu_1.jpg)

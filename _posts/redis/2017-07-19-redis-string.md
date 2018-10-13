@@ -9,7 +9,7 @@ tags: redis string key-value
 * content
 {:toc}
 
-![redis-logo](http://7xj4mc.com1.z0.glb.clouddn.com/redis-logo.png)
+![redis-logo](http://blog.zhangenrui.cn/redis-logo.png)
 
 ## 类型介绍
 
@@ -17,7 +17,7 @@ String是redis最基本也是最简单的数据类型，典型的key-value结构
 
 <!--more-->
 
-![string-1](http://7xj4mc.com1.z0.glb.clouddn.com/string-img-1.png)
+![string-1](http://blog.zhangenrui.cn/string-img-1.png)
 
 ## 常用命令
 

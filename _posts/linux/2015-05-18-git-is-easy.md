@@ -11,7 +11,7 @@ tags: git 命令
 
 闲来无事，总结下git的常用操作，供大家参考。
 
-![git logo](http://7xj4mc.com1.z0.glb.clouddn.com/git-logo.png)
+![git logo](http://blog.zhangenrui.cn/git-logo.png)
 
 <!--more-->
 
@@ -64,7 +64,7 @@ git config --global credential.helper store
 2. 缓存区（Index）：临时保存改动
 3. HEAD：指向你最近一次提交后的结果
 
-![git work](http://7xj4mc.com1.z0.glb.clouddn.com/git_work.png)
+![git work](http://blog.zhangenrui.cn/git_work.png)
 
 ## 添加与提交
 
@@ -85,7 +85,7 @@ git config --global credential.helper store
 
 分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。
 
-![git branch](http://7xj4mc.com1.z0.glb.clouddn.com/git_branch.png)
+![git branch](http://blog.zhangenrui.cn/git_branch.png)
 
 > 创建dev分支并且换：
 > 

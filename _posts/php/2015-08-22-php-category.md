@@ -102,7 +102,7 @@ Pork : 猪肉
 
 把上面的分类，组织成一个二叉树的结构，并在每个分类的左右标值，如下图：
 
-![分类图](http://7xj4mc.com1.z0.glb.clouddn.com/php_category_1.png)
+![分类图](http://blog.zhangenrui.cn/php_category_1.png)
 
 从图中来看，我们要得到水果下面的所有分类，那么只需要用到下面的SQL语句：
 

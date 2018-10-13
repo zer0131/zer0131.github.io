@@ -10,7 +10,7 @@ tags: 微信开发 PHP
 * content
 {:toc}
 
-![wechat](http://7xj4mc.com1.z0.glb.clouddn.com/wechat_1.png)
+![wechat](http://blog.zhangenrui.cn/wechat_1.png)
 
 ## 写在前面的话
 
@@ -22,7 +22,7 @@ tags: 微信开发 PHP
 
 微信公众平台有两个模式：编辑模式和开发者模式，做为一个程序员，我们不看编辑模式，这是给不懂程序的人用的。我们重点看开发者模式。
 
-![wechat 1](http://7xj4mc.com1.z0.glb.clouddn.com/wechat_2.jpg)
+![wechat 1](http://blog.zhangenrui.cn/wechat_2.jpg)
 
 开发者模式主要是通过一定的代码程序来链接你已有的网站。那么使用开发者模式的第一步就是验证你的网站了。具体怎么验证可以参考微信中的帮助信息。
 
