@@ -26,6 +26,7 @@ type: page
 ## Tech
 
 * <a href="http://php.net/manual/zh/" target="_blank" title="PHP文档">PHP文档</a>
+* <a href="http://godoc.ml/" target="_blank">Go标准库中文文档</a>
 * <a href="http://www.thinkphp.cn/" target="_blank" title="thinkphp">ThinkPHP</a>
 * <a href="http://codeigniter.org.cn/" target="_blank" title="CI">CI</a>
 * <a href="http://www.hprose.com/" target="_blank">Hprose</a>
@@ -50,6 +51,7 @@ type: page
 * <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
 * <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
 * <a href="https://note.youdao.com/web" target="_blank">有道云笔记</a>
+* <a href="https://packagist.org" target="_blank">Packagist</a>
 
 ## Shop
 
