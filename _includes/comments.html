@@ -39,6 +39,8 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 
 {% if site.gitment  %}
 <div id="comment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script type="text/javascript">
     var gitment = new Gitment({
         id: "{{ site.url }}{{ page.url }}",
