@@ -1,4 +1,4 @@
-<script src="/js/APlayer.min.js"> </script>.gitment-container {
+.gitment-container {
     font-family: sans-serif;
     font-size: 14px;
     line-height: 1.5;
@@ -1148,3 +1148,4 @@
   .gitment-markdown hr {
     border-bottom-color: #eee;
   }
+  
