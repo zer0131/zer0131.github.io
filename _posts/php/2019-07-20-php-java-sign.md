@@ -3,7 +3,7 @@ layout: post
 title: php与java md5和base64加密
 category: php
 keywords: php,java,签名,md5,base64
-tags: php,java,签名,md5,base64
+tags: php java 签名 md5 base64
 ---
 
 * content
