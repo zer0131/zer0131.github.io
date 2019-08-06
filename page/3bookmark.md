@@ -48,10 +48,10 @@ type: page
 * <a href="http://maven.aliyun.com/nexus/#welcome" target="_blank">maven阿里镜像</a>
 * <a href="https://start.spring.io/" target="_blank">SPRING INITIALIZR</a>
 * <a href="https://www.processon.com" target="_blank">ProcessOn</a>
-* <a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
 * <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
 * <a href="https://note.youdao.com/web" target="_blank">有道云笔记</a>
 * <a href="https://packagist.org" target="_blank">Packagist</a>
+* <a href="http://www.planetb.ca/syntax-highlight-word" target="_blank">word代码美化工具</a>
 
 ## Shop
 
