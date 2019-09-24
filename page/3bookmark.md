@@ -34,10 +34,10 @@ type: page
 * <a href="https://openresty.org/cn/" target="_blank">OpenResty</a>
 * <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
 * <a href="https://golang.google.cn/" target="_blank">Go中国</a>
-* <a href="https://goproxy.io" target="_blank">Go下载代理</a>
 
 ## DevTool
 
+* <a href="https://goproxy.io" target="_blank">GoProxy</a>
 * <a href="https://portal.qiniu.com/signin" target="_blank" title="七牛">七牛云存储</a>
 * <a href="http://tool.oschina.net/" target="_blank" title="在线工具">在线工具(开源中国)</a>
 * <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>
