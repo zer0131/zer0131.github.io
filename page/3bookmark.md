@@ -34,6 +34,7 @@ type: page
 * <a href="https://openresty.org/cn/" target="_blank">OpenResty</a>
 * <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
 * <a href="https://golang.google.cn/" target="_blank">Go中国</a>
+* <a href="https://goproxy.io" target="_blank">Go下载代理</a>
 
 ## DevTool
 
