@@ -35,6 +35,7 @@ type: page
 * <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
 * <a href="https://golang.google.cn/" target="_blank">Go中国</a>
 * <a href="https://blog.csdn.net/ThinkWon/article/details/103592572" target="_blank">超强Java知识体系</a>
+* <a href="https://labuladong.gitbook.io/algo/" target="_blank" title="算法套路">算法套路</a>
 
 ## 开发工具
 
@@ -71,7 +72,6 @@ type: page
 * <a href="https://www.lagou.com/" target="_blank" title="拉钩">拉钩</a>
 * <a href="https://www.nowcoder.com" target="_blank" title="牛客网">牛客网</a>
 * <a href="https://leetcode-cn.com" target="_blank" title="力扣">力扣</a>
-* <a href="https://labuladong.gitbook.io/algo/" target="_blank" title="算法套路">算法套路</a>
 
 ## 其他
 
