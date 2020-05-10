@@ -9,13 +9,13 @@ type: page
 * content
 {:toc}
 
-## Search
+## 搜索 
 
 * <a href="https://www.baidu.com" target="_blank" title="baidu">Baidu</a>
 * <a href="https://www.google.com" target="_blank" title="google">Google</a>
 * <a href="https://www.so.com/" target="_blank" title="360">360</a>
 
-## Mail
+## 邮箱
 
 * <a href="https://mail.qq.com/cgi-bin/loginpage?lang=zh_CN" target="_blank" title="qq">QQ邮箱</a>
 * <a href="https://mail.aliyun.com/alimail/auth/login" target="_blank" title="ali">阿里个人邮箱</a>
@@ -23,7 +23,7 @@ type: page
 * <a href="http://mail.163.com/" target="_blank" title="163">网易邮箱</a>
 * <a href="https://outlook.live.com/owa/" target="_blank" title="hotmail">Hotmail</a>
 
-## Tech
+## 技术
 
 * <a href="http://php.net/manual/zh/" target="_blank" title="PHP文档">PHP文档</a>
 * <a href="http://godoc.ml/" target="_blank">Go标准库中文文档</a>
@@ -34,8 +34,9 @@ type: page
 * <a href="https://openresty.org/cn/" target="_blank">OpenResty</a>
 * <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
 * <a href="https://golang.google.cn/" target="_blank">Go中国</a>
+* <a href="https://blog.csdn.net/ThinkWon/article/details/103592572" target="_blank">超强Java知识体系</a>
 
-## DevTool
+## 开发工具
 
 * <a href="https://goproxy.io" target="_blank">GoProxy</a>
 * <a href="https://portal.qiniu.com/signin" target="_blank" title="七牛">七牛云存储</a>
@@ -55,22 +56,24 @@ type: page
 * <a href="http://www.planetb.ca/syntax-highlight-word" target="_blank">word代码美化工具</a>
 * <a href="https://unbug.github.io/codelf/" target="_blank">开发起名工具</a>
 
-## Shop
+## 购物 
 
 * <a href="https://www.taobao.com/" target="_blank" title="淘宝">淘宝</a>
 * <a href="https://www.jd.com/" target="_blank" title="京东">京东</a>
 * <a href="https://www.amazon.cn/" target="_blank" title="亚马逊">亚马逊</a>
 
-## Finance
+## 财务
 
 * <a href="https://www.alipay.com/" target="_blank" title="支付宝">支付宝</a>
 
-## Work
+## 工作
 
 * <a href="https://www.lagou.com/" target="_blank" title="拉钩">拉钩</a>
-* <a href="http://www.zhaopin.com/" target="_blank" title="智联">智联</a>
+* <a href="https://www.nowcoder.com" target="_blank" title="牛客网">牛客网</a>
+* <a href="https://leetcode-cn.com" target="_blank" title="力扣">力扣</a>
+* <a href="https://labuladong.github.io/ebook/" target="_blank" title="算法套路">算法套路</a>
 
-## Other
+## 其他
 
 * <a href="http://www.apple.com/cn/" target="_blank" title="apple">Apple</a>
 * <a href="http://www.mi.com/" target="_blank" title="mi">小米</a>
