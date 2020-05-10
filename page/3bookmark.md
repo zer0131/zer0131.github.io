@@ -71,7 +71,7 @@ type: page
 * <a href="https://www.lagou.com/" target="_blank" title="拉钩">拉钩</a>
 * <a href="https://www.nowcoder.com" target="_blank" title="牛客网">牛客网</a>
 * <a href="https://leetcode-cn.com" target="_blank" title="力扣">力扣</a>
-* <a href="https://labuladong.github.io/ebook/" target="_blank" title="算法套路">算法套路</a>
+* <a href="https://labuladong.gitbook.io/algo/" target="_blank" title="算法套路">算法套路</a>
 
 ## 其他
 
