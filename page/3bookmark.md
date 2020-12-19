@@ -49,7 +49,7 @@ type: page
 * <a href="http://cli.im/url" target="_blank" title="二维码">二维码生成</a>
 * <a href="http://tool.chinaz.com/Tools/unixtime.aspx" target="_blank" title="时间戳">时间戳转换</a>
 * <a href="http://jekyll.com.cn/" target="_blank" title="jekyll">jekyll中文站</a>
-* <a href="http://maven.aliyun.com/nexus/#welcome" target="_blank">maven阿里镜像</a>
+* <a href="https://maven.aliyun.com/mvn/guide" target="_blank">maven阿里镜像</a>
 * <a href="https://start.spring.io/" target="_blank">SPRING INITIALIZR</a>
 * <a href="https://www.processon.com" target="_blank">ProcessOn</a>
 * <a href="https://mp.weixin.qq.com/" target="_blank">微信公众平台</a>
