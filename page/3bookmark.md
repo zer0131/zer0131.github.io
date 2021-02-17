@@ -27,16 +27,13 @@ type: page
 ## 技术
 
 * <a href="http://php.net/manual/zh/" target="_blank" title="PHP文档">PHP文档</a>
-* <a href="http://godoc.ml/" target="_blank">Go标准库中文文档</a>
 * <a href="http://www.thinkphp.cn/" target="_blank" title="thinkphp">ThinkPHP</a>
-* <a href="http://codeigniter.org.cn/" target="_blank" title="CI">CI</a>
 * <a href="http://www.hprose.com/" target="_blank">Hprose</a>
-* <a href="http://blog.csdn.net/column/details/mobilebackend.html" target="_blank">App后端技术架构</a>
 * <a href="https://openresty.org/cn/" target="_blank">OpenResty</a>
-* <a href="http://www.mycat.org.cn/" target="_blank">Mycat</a>
 * <a href="https://golang.google.cn/" target="_blank">Go中国</a>
-* <a href="https://blog.csdn.net/ThinkWon/article/details/103592572" target="_blank">超强Java知识体系</a>
 * <a href="https://labuladong.gitbook.io/algo/" target="_blank" title="算法套路">算法套路</a>
+* <a href="https://leetcode-cn.com/" target="_blank" title="LeetCode">LeetCode</a>
+* <a href="https://www.pdai.tech/" target="_blank" title="Java全栈知识体系">Java全栈知识体系</a>
 
 ## 开发工具
 
@@ -48,7 +45,6 @@ type: page
 * <a href="https://www.aliyun.com/" target="_blank" title="阿里云">阿里云</a>
 * <a href="http://cli.im/url" target="_blank" title="二维码">二维码生成</a>
 * <a href="http://tool.chinaz.com/Tools/unixtime.aspx" target="_blank" title="时间戳">时间戳转换</a>
-* <a href="http://jekyll.com.cn/" target="_blank" title="jekyll">jekyll中文站</a>
 * <a href="https://maven.aliyun.com/mvn/guide" target="_blank">maven阿里镜像</a>
 * <a href="https://start.spring.io/" target="_blank">SPRING INITIALIZR</a>
 * <a href="https://www.processon.com" target="_blank">ProcessOn</a>
@@ -57,6 +53,7 @@ type: page
 * <a href="https://packagist.org" target="_blank">Packagist</a>
 * <a href="http://www.planetb.ca/syntax-highlight-word" target="_blank">word代码美化工具</a>
 * <a href="https://unbug.github.io/codelf/" target="_blank">开发起名工具</a>
+* <a href="https://www.jetbrains.com/" target="_blank">jetbrains</a>
 
 ## 购物 
 
