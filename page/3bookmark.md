@@ -34,6 +34,7 @@ type: page
 * <a href="https://labuladong.gitbook.io/algo/" target="_blank" title="算法套路">算法套路</a>
 * <a href="https://leetcode-cn.com/" target="_blank" title="LeetCode">LeetCode</a>
 * <a href="https://www.pdai.tech/" target="_blank" title="Java全栈知识体系">Java全栈知识体系</a>
+* <a href="https://segmentfault.com/" target="_blank" title="segmentfault">segmentfault</a>
 
 ## 开发工具
 
