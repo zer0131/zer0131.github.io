@@ -77,3 +77,4 @@ type: page
 * <a href="http://www.apple.com/cn/" target="_blank" title="apple">Apple</a>
 * <a href="http://www.mi.com/" target="_blank" title="mi">小米</a>
 * <a href="http://www.uyan.cc/sites" target="_blank" title="友言">友言</a>
+* <a href="https://buy.aneeo.com/" target="_blank" title="购买邮箱网站">购买邮箱网站</a>
