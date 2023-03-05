@@ -13,8 +13,7 @@ type: page
 
 * <a href="https://www.baidu.com" target="_blank" title="baidu">Baidu</a>
 * <a href="https://www.google.com" target="_blank" title="google">Google</a>
-* <a href="https://www.so.com/" target="_blank" title="360">360</a>
-* <a href="https://www.sogou.com/" target="_blank" title="搜狗">搜狗</a>
+* <a href="https://www.bing.com/" target="_blank" title="bing">Bing</a>
 
 ## 邮箱
 
