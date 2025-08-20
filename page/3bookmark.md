@@ -17,11 +17,12 @@ type: page
 
 ## 邮箱
 
+* <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" title="gmail">Gmail</a>
 * <a href="https://mail.qq.com/cgi-bin/loginpage?lang=zh_CN" target="_blank" title="qq">QQ邮箱</a>
+* <a href="https://outlook.live.com/owa/" target="_blank" title="hotmail">Hotmail</a>
 * <a href="https://mail.aliyun.com/alimail/auth/login" target="_blank" title="ali">阿里个人邮箱</a>
 * <a href="https://mail.mxhichina.com/?lang=zh_CN" target="_blank" title="ali-qiye">阿里企业邮箱</a>
 * <a href="http://mail.163.com/" target="_blank" title="163">网易邮箱</a>
-* <a href="https://outlook.live.com/owa/" target="_blank" title="hotmail">Hotmail</a>
 
 ## 技术
 
